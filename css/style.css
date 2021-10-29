@@ -31,9 +31,6 @@ a {
     clear: both;
 }
 
-header {
-}
-
 header h1 {
     float: left;
     padding: 19px 0;
@@ -54,32 +51,11 @@ header ul li a {
     font-weight: 600;
 }
 
-.home:hover {
+header ul li a:hover {
     background-color: #0a3d62;
     color: #ced6e0;
     font-weight: bold;
     border-radius: 10px 30px;
-}
-
-.about:hover {
-    background-color: #0a3d62;
-    color: #ced6e0;
-    font-weight: bold;
-    border-radius: 30px 10px;   
-}
-
-.service:hover {
-    background-color: #0a3d62;
-    color: #ced6e0;
-    font-weight: bold;
-    border-radius: 10px 30px;   
-}
-
-.contact:hover {
-    background-color: #0a3d62;
-    color: #ced6e0;
-    font-weight: bold;
-    border-radius: 30px 10px;   
 }
 
 section {
@@ -118,5 +94,12 @@ section h3 {
     text-align: center;
     padding: 25px 0;
     color: #0a3d62;
+    margin-bottom: 23px;
+}
+
+.about p {
+    color: #666;
+    word-spacing: 3px;
+    line-height: 30px;
 }
 
