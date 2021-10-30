@@ -120,6 +120,12 @@ section h3 {
     margin-left: 10px;
 }
 
+.box::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .box .col-3 {
     width: 33%;
     padding: 25px 30px;
@@ -131,7 +137,6 @@ section h3 {
 .icon {
     width: 70px;
     height: 70px;
-    border: 1px solid;
     border-radius: 50%;
     text-align: center;
     line-height: 70px;
@@ -140,6 +145,6 @@ section h3 {
 }
 
 .box .col-3 h4 {
-    margin: 25px 0;
+    margin: 20px 0;
 }
 
