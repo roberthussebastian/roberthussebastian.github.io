@@ -2,4 +2,4 @@
 
 Sebuah website sederhana yang berisi tentang profile saya
 
--- Progress 25% --
+***PROGRESS 35%***
